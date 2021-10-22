@@ -7,8 +7,17 @@
 html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.first-body {
+  background-image: url(https://i.postimg.cc/156TrGCC/h-img.jpg);
+  height: 80vh;
+  width: 87%;
 }
 .page1 {
   text-align: center;
-  margin-top: 40rem;
+  padding: 34rem;
+}
+.welcome-head {
+  font-size: 3.5rem;
 }
