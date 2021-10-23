@@ -61,13 +61,24 @@ h2 {
 #what-we-do-h2 {
   text-align: center;
 }
-.design-img-text {
+.designImgText {
   display: inline;
   font-size: 1.5rem;
 }
-.development-img-text {
+.designDescription {
+  display: none;
+  font-size: 1.3rem;
+}
+h5 {
+  font-weight: bold;
+}
+.developmentImgText {
   display: inline;
   font-size: 1.5rem;
+}
+#developmentDescription {
+  display: none;
+  font-size: 1.1rem;
 }
 #development-img {
   padding-top: 3rem;
