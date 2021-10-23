@@ -108,32 +108,40 @@ input::placeholder {
   color: white;
   transition: color 0.3s ease;
   position: relative;
+  text-align: justify;
 }
 input {
   -webkit-appearance: none;
   -ms-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 350px;
+  width: 450px;
   height: 30px;
   border: 0.1rem solid white;
   padding: 1rem;
   margin: auto 1rem auto 1rem;
   outline: none;
   font-size: 1.5rem;
-}
-.data-inputs {
-  width: 85%;
-  margin: auto;
+  background: none;
+  color: white;
 }
 .name-email-input {
   column-count: 2;
-}
-.inputs {
-  background: none;
-  color: #ffffff;
+  width: 70%;
+  margin: auto;
 }
 .message {
   height: 30rem;
-  width: 80%;
+  width: 65%;
+  padding-bottom: 27rem;
+}
+.message::placeholder {
+  position: absolute;
+}
+.sixth-body {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.social-media-handles {
+  padding: 1rem;
 }
