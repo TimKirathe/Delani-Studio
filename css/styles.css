@@ -53,6 +53,28 @@ body {
 h2 {
   font-size: 4rem;
 }
-#what-we-do {
+.page4 {
+  column-count: 3;
   text-align: center;
+}
+#what-we-do-h2 {
+  text-align: center;
+}
+.design-img-text {
+  display: inline;
+  font-size: 1.5rem;
+}
+.development-img-text {
+  display: inline;
+  font-size: 1.5rem;
+}
+#development-img {
+  padding-top: 1.6rem;
+}
+.product-management-img-text {
+  display: inline;
+  font-size: 1.5rem;
+}
+#product-management-img {
+  padding-top: 0.8rem;
 }
