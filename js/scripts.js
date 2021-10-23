@@ -1,7 +1,7 @@
 $(document).ready(function() {
-$("#userInput").submit(function(event) {
-  event.preventDefualt();
-  var nameInput = $("#nameInput").val();
-  alert(nameInput);
-})
-});
+    $("#userInput form").submit(function(event) {
+      var nameInput = $("#nameInput").val();
+      alert(nameInput);
+      event.preventDefault();
+    });
+  });
