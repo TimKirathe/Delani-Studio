@@ -12,17 +12,18 @@ html {
 body {
 }
 .first-body {
-  background-image: url(https://i.postimg.cc/156TrGCC/h-img.jpg);
-  height: 80vh;
-  width: 87%;
+  background-image: url(https://i.postimg.cc/ry475tYN/mouse-click.png), url(https://i.postimg.cc/156TrGCC/h-img.jpg);
   margin: auto;
-  position: relative;
-}
-.page1 {
+  position: absolute, relative;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, cover;
+  border: 0.3rem solid black;
   text-align: center;
-  padding: 34rem;
+  padding: 30rem;
+  padding-top: 40rem;
   color: white;
 }
+
 .welcome-head {
   font-size: 3.5rem;
 }
