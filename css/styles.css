@@ -12,18 +12,18 @@ html {
 body {
 }
 .first-body {
-  background-image: url(https://i.postimg.cc/ry475tYN/mouse-click.png), url(https://i.postimg.cc/156TrGCC/h-img.jpg);
+  background-image: url(https://i.postimg.cc/ry475tYN/mouse-click.png), url(https://i.postimg.cc/nV67tBFt/logo.png), url(https://i.postimg.cc/156TrGCC/h-img.jpg);
   margin: auto;
-  position: absolute, relative;
+  position: absolute, absolute, relative;
   background-repeat: no-repeat, no-repeat;
-  background-size: auto, cover;
-  border: 0.3rem solid black;
+  background-size: auto, 100px 100px, cover;
+  background-position: 50% 95%, 50% 35%;
+  border: 0 solid ;
   text-align: center;
   padding: 30rem;
   padding-top: 40rem;
   color: white;
 }
-
 .welcome-head {
   font-size: 3.5rem;
 }
@@ -34,5 +34,22 @@ body {
   border: 0 solid white;
   width: 70%;
   margin: auto;
-
+}
+.third-body {
+  background-image: url(https://i.postimg.cc/ZKxkRbZc/s-image.jpg);
+  margin: auto;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0 solid;
+  height: 40rem;
+}
+.page3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 15rem;
+}
+h2 {
+  font-size: 4rem;
 }
