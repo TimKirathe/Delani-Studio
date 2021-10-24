@@ -23,21 +23,53 @@ $(document).ready(function() {
     $(".productManagementImgText").toggle(1000, "linear");
     $(".productManagementDescription").toggle(1000, "linear");
   });
-  var portfolioImages = ["img1", "img2", "img3", "img4", "img5", "img6", "img7", "img8"]
-  var hoverText = ["hover1", "hover2", "hover3", "hover4", "hover5", "hover6", "hover7", "hover8"]
-  porfolioImages.forEach(function(image) {
-    $("#" + image).hover(function() {
-      hoverText.forEach(function(text) {
-      $("#" + text).show().offset($("#" + image).offset());
-    }, function() {
-      $("#" + text).hide();
-    });
-  };
-});
+
   $("#img1").hover(function() {
     $("#hover1").show().offset($("#img1").offset());
   }, function() {
     $("#hover1").hide();
+  });
+
+  $("#img2").hover(function() {
+    $("#hover2").show().offset($("#img2").offset());
+  }, function() {
+    $("#hover2").hide();
+  });
+
+  $("#img3").hover(function() {
+    $("#hover3").show().offset($("#img3").offset());
+  }, function() {
+    $("#hover3").hide();
+  });
+
+  $("#img4").hover(function() {
+    $("#hover4").show().offset($("#img4").offset());
+  }, function() {
+    $("#hover4").hide();
+  });
+
+  $("#img5").hover(function() {
+    $("#hover5").show().offset($("#img5").offset());
+  }, function() {
+    $("#hover5").hide();
+  });
+
+  $("#img6").hover(function() {
+    $("#hover6").show().offset($("#img6").offset());
+  }, function() {
+    $("#hover6").hide();
+  });
+
+  $("#img7").hover(function() {
+    $("#hover7").show().offset($("#img7").offset());
+  }, function() {
+    $("#hover7").hide();
+  });
+
+  $("#img8").hover(function() {
+    $("#hover8").show().offset($("#img8").offset());
+  }, function() {
+    $("#hover8").hide();
   });
 
     $("#userInput form").submit(function(event) {
