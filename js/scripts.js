@@ -74,8 +74,8 @@ $(document).ready(function() {
 
     $("#userInput form").submit(function(event) {
       var nameInput = $("#nameInput").val();
-      alert(nameInput);
       $("#receivedMessage").text("Thank you " + nameInput + " for your message. We have received it.");
+      $("#userInput form")[0].reset();
       event.preventDefault();
     });
   });
