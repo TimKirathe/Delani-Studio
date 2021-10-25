@@ -72,10 +72,10 @@ $(document).ready(function() {
     $("#hover8").hide();
   });
 
-    $("#userInput form").submit(function(event) {
+    $("#mcEmbeddedSubscribeForm").submit(function(event) {
       var nameInput = $("#nameInput").val();
       $("#receivedMessage").text("Thank you " + nameInput + " for your message. We have received it.");
-      $("#userInput form")[0].reset();
+      $("#mcEmbeddedSubscribeForm")[0].reset();
       event.preventDefault();
     });
   });
