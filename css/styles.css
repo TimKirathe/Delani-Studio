@@ -260,3 +260,9 @@ input {
 #receivedMessage {
   font-size: 2rem;
 }
+@media screen and (max-width: 707px) {
+  .first-body {
+    background-position: 60% 95%, 60% 30%;
+    padding: 40rem 25rem 25rem 25rem;
+  }
+}
