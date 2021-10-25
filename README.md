@@ -5,7 +5,7 @@ DELANI-STUDIO
 
 ## Technologies Used
 
-- HTML, CSS, Bootstrap, jQuery and Javascript
+- HTML, CSS, Bootstrap, jQuery, Javascript and MailChimp API.
 
 
 ##### Setup Instructions and Installation
